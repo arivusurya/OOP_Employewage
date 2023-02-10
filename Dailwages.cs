@@ -8,7 +8,14 @@ namespace EmployeWage {
             int employeehour = 0;
             int wageperhour = 20 ;
             int totalemployeewage =0; 
-           for(int day =0 ;day <number_ofWorking_days;day++){
+            int totalemphour =0 ;
+            int maxworkinghour=100;
+            int totalworkingday=0;
+            int max_workingday=20;
+       while (totalemphour <=maxworkinghour && totalworkingday < max_workingday)
+       {
+        
+            totalworkingday++;
             Random random = new Random();
            int number = random.Next(3);
            switch (number)
@@ -24,12 +31,12 @@ namespace EmployeWage {
                 break;
             
            }
-
+            totalemphour +=employeehour;
             int dailywageofworker = employeehour * wageperhour;
             totalemployeewage +=dailywageofworker;
             Console.WriteLine("The daily wage is {0}",dailywageofworker);
            }
-           Console.WriteLine("Total employee wage for a month is "+totalemployeewage);
+           Console.WriteLine("total employe wage : "+totalemployeewage);
         }
 
     }
