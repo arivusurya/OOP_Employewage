@@ -6,8 +6,7 @@
     public static void Main(string[] args)
         {
            
-    dailywage.wagecalculation();
-          
+           switchcase.dailwageSwitch();
            
                 }
 }
