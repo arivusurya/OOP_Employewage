@@ -1,10 +1,10 @@
 namespace EmployeWage{
 
-    public class switchcase{
-       public static int employeehour = 0;
-       public static int dailywage =0;
-       public static int wageperhour =20;
-        public static  void dailwageSwitch(){
+    public class Switchcase{
+       public  int employeehour = 0;
+       public  int dailywage =0;
+       public  int wageperhour =20;
+        public   void dailwageSwitch(){
             Random random = new Random();
 
             int number = random.Next(3);

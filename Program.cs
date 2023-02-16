@@ -5,8 +5,8 @@
 
     public static void Main(string[] args)
         {
-           DailyPartime partime = new DailyPartime();
-           partime.wagecalculation();
+          Switchcase dailywage = new Switchcase();
+          dailywage.dailwageSwitch();
         }
             
           
