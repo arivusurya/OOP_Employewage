@@ -5,8 +5,12 @@
 
     public static void Main(string[] args)
         {
-       MonthlyWageCondition salary = new MonthlyWageCondition();
-       salary.wagecalculation();
+            EmployeWage wage = new EmployeWage();
+            wage.dailywage();
+            wage.parttimewagecalculation();
+            wage.monthlywagecalculation();
+            wage.dailwageSwitch();
+            wage.conditionalwagecalculation();
         }
             
           
