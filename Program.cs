@@ -5,8 +5,8 @@
 
     public static void Main(string[] args)
         {
-          Switchcase dailywage = new Switchcase();
-          dailywage.dailwageSwitch();
+          MonthlyWage salary = new MonthlyWage();
+          salary.monthlywagecalculation();
         }
             
           
