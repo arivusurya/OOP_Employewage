@@ -5,8 +5,10 @@
 
     public static void Main(string[] args)
         {
-           
-           wages.dailywage();
+            greeting greet =new greeting();
+            greet.showgreeting();
+            
+          
            
                 }
 }
