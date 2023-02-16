@@ -5,8 +5,8 @@
 
     public static void Main(string[] args)
         {
-           Wages wage = new Wages();
-           wage.dailywage();
+           DailyPartime partime = new DailyPartime();
+           partime.wagecalculation();
         }
             
           
