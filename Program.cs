@@ -5,8 +5,8 @@
 
     public static void Main(string[] args)
         {
-          MonthlyWage salary = new MonthlyWage();
-          salary.monthlywagecalculation();
+       MonthlyWageCondition salary = new MonthlyWageCondition();
+       salary.wagecalculation();
         }
             
           
