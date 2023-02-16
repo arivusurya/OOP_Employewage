@@ -5,11 +5,11 @@
 
     public static void Main(string[] args)
         {
-            greeting greet =new greeting();
-            greet.showgreeting();
+            EmployeeCheck employee = new EmployeeCheck();
+            employee.checkemplyee();
+        }
             
           
            
                 }
-}
 }
