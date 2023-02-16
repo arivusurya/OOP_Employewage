@@ -5,8 +5,8 @@
 
     public static void Main(string[] args)
         {
-            EmployeeCheck employee = new EmployeeCheck();
-            employee.checkemplyee();
+           Wages wage = new Wages();
+           wage.dailywage();
         }
             
           

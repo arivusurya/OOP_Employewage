@@ -2,9 +2,9 @@ using System;
 
 namespace EmployeWage {
 
-    public class wages{
+    public class Wages{
 
-            public static void dailywage(){
+            public  void dailywage(){
                 int workperhour = 20 ;
                 int workinghour = 8;
                 int dailywage = workinghour * workperhour;
